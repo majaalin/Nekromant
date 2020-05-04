@@ -20,4 +20,4 @@ $ npm start
 - This runs the app in the development mode. Open http://localhost:3000 to view it in the browser.
 
 ## License
-See The MIT License.
+This project is licensed under the MIT License.
