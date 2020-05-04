@@ -1,0 +1,30 @@
+.Button {
+  background-color: #1b191a;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 30px;
+  transition: background-color 0.1s ease-in;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.185233);
+  filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.185233));
+  cursor: crosshair;
+  width: auto;
+}
+
+.Button:hover {
+  background-color: #84d878;
+  border: none;
+}
+
+a {
+  color: #fcfaf8;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.15em;
+  cursor: crosshair;
+  text-transform: uppercase;
+  filter: contrast(110%) drop-shadow(0px 0px 4px rgba(225, 225, 225, 0.5));
+  width: auto;
+}

@@ -1,7 +1,6 @@
 .Footer {
   background-color: rgba(223, 224, 216, 0.3);
-  z-index: -5;
-  height: 100vh;
+  height: 30vh;
   width: calc(100vw - 276px);
   bottom: 0;
   display: flex;
@@ -15,7 +14,7 @@
 }
 
 .SocialMedia {
-  width: 10vw;
+  width: 30vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -24,6 +23,11 @@
 .Facebook,
 .Instagram {
   width: 45px;
+}
+
+.Facebook:hover,
+.Instagram:hover {
+  transform: scale(1.1);
 }
 
 .Contact {

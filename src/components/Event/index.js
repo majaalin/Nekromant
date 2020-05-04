@@ -1,6 +1,7 @@
 import React from 'react';
 import './event.css';
 import client from '../../contentful';
+import Button from '../Button';
 
 const dateFormat = require('dateformat');
 
@@ -30,9 +31,7 @@ const Event = () => {
                 <p className="Title">{post.fields.title}</p>
               </div>
               {post.fields.link ? (
-                <button className="Button">
-                  <a href={post.fields.link}>Attend</a>
-                </button>
+                <Button href={post.fields.link} title="Attend" />
               ) : null}
             </div>
           );
