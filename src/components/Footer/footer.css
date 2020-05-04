@@ -1,0 +1,41 @@
+.Footer {
+  background-color: rgba(223, 224, 216, 0.3);
+  z-index: -5;
+  height: 100vh;
+  width: calc(100vw - 276px);
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 138px;
+}
+
+.LogoFooter {
+  width: 200px;
+}
+
+.SocialMedia {
+  width: 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Facebook,
+.Instagram {
+  width: 45px;
+}
+
+.Contact {
+  font-family: 'Rakkas', cursive;
+  font-size: 30px;
+}
+
+.Mail {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  color: #212121;
+  text-transform: lowercase;
+}

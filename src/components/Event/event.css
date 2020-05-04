@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Rakkas&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+.Events {
+  height: 100vh;
+  width: 100vw;
+  background-color: #f5f6f3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Info {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 80%;
+}
+
+.Event {
+  width: calc(100vw - 276px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 138px;
+  height: 100px;
+  padding: 10px;
+}
+
+.Date {
+  font-family: 'Rakkas', cursive;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  letter-spacing: 0.2em;
+  color: #212121;
+  text-transform: uppercase;
+  padding-right: 30px;
+  width: 200px;
+  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.8));
+}
+
+.Title {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  color: #212121;
+  letter-spacing: 0.05em;
+}
+
+.Button {
+  background-color: #1b191a;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 30px;
+  transition: background-color 0.1s ease-in;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.185233);
+  filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.185233));
+  cursor: crosshair;
+}
+
+.Button:hover {
+  background-color: #84d878;
+  border: none;
+}
+
+a {
+  color: #fcfaf8;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.15em;
+  cursor: crosshair;
+  text-transform: uppercase;
+  filter: contrast(110%) drop-shadow(0px 0px 4px rgba(225, 225, 225, 0.5));
+}
