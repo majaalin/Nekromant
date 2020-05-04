@@ -2,7 +2,7 @@ import React from 'react';
 import './footer.css';
 import facebook from './../../assets/images/facebook.png';
 import instagram from './../../assets/images/instagram.png';
-import Button from '../Button';
+import Button from './../../components/Button';
 
 const Footer = (props) => {
   return (

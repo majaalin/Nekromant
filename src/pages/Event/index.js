@@ -1,7 +1,7 @@
 import React from 'react';
 import './event.css';
 import client from '../../contentful';
-import Button from '../Button';
+import Button from './../../components/Button';
 
 const dateFormat = require('dateformat');
 

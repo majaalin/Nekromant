@@ -1,9 +1,9 @@
 import React from 'react';
 import Navbar from './components/Navbar';
-import Logo from './components/Logo';
-import Playlist from './components/Playlist';
-import Event from './components/Event';
-import Footer from './components/Footer';
+import Home from './pages/Home';
+import Playlist from './pages/Playlist';
+import Event from './pages/Event';
+import Footer from './pages/Footer';
 import './App.css';
 import SmoothScroll from 'smooth-scroll';
 
@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Logo />
+      <Home />
       <Event />
       <Playlist />
       <Footer />
