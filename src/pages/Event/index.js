@@ -6,12 +6,12 @@ import Button from './../../components/Button';
 const dateFormat = require('dateformat');
 
 const Event = () => {
-  const [posts, setPosts] = React.useState(null);
+  const [event, setEvent] = React.useState(null);
 
   React.useEffect(() => {
     client
       .getEntries({
-        content_type: 'post',
+        content_type: 'event',
         limit: 4,
         order: 'fields.date',
       })
@@ -21,17 +21,17 @@ const Event = () => {
   }, []);
   return (
     <div className="Events" id="events">
-      {posts &&
-        posts.map((post, i) => {
-          const date = dateFormat(post.fields.date, 'dd mmm');
+      {event &&
+        events.map((event, i) => {
+          const date = dateFormat(event.fields.date, 'dd mmm');
           return (
             <div className="Event" key={i}>
               <div className="Info">
                 <p className="Date">{date}</p>
-                <p className="Title">{post.fields.title}</p>
+                <p className="Title">{event.fields.title}</p>
               </div>
               {post.fields.link ? (
-                <Button href={post.fields.link} title="Attend" />
+                <Button href={event.fields.link} title="Attend" />
               ) : null}
             </div>
           );
