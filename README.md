@@ -2,8 +2,8 @@
 
 ![Image description](readme.png)
 
-A website build in React for the band Nekromant. You can listen to their music, find contact information and information about their next shows. 
-The band easily uploads upcoming shows thanks to Headless CMS (Contentful).
+A website built in React for the band Nekromant. You can listen to their music, find contact information and information about their upcoming shows. 
+The band can easily upload upcoming shows thanks to the Headless CMS, Contentful.
 
 ## Link 
 
